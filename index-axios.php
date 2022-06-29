@@ -9,8 +9,10 @@
 <body>
     <div  id="app">
         <div v-for="element in cd">
-            
-                {{element.title}}
+                <img :src=element.poster alt="" srcset="">
+                <div>{{element.title}}</div>
+                <div>{{element.author}}</div>
+                <div>{{element.year}}</div>
             
         </div>
         
