@@ -7,20 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div id="app">
-        <div v-for="cd in cds" class="card">
-            <h1>
-                {{ cd.poster }}
-            </h1>
+    <div  id="app">
+        <div v-for="element in cd">
+            
+                {{element.title}}
+            
         </div>
+        
+        
 
-
-
+    
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script scr="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
